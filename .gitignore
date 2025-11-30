@@ -1,0 +1,32 @@
+# Ignore raw and processed data (large files)
+data/raw/*
+data/processed/*
+!data/.gitkeep
+
+# Ignore temp raster files
+*.tif
+*.tiff
+*.nc
+*.npy
+*.npz
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints
+checkpoints/
+
+# Logs
+logs/
+
+# VSCode
+.vscode/
+
+# Mac OS
+.DS_Store
